@@ -27,7 +27,6 @@ body{
 
 
 
-
 /* Resplandor superior */
 
 .glow{
@@ -86,18 +85,13 @@ body{
 
 
 
-
 .logo{
-
 
     position:relative;
 
-
     z-index:2;
 
-
     animation:entrada 1.4s ease;
-
 
 }
 
@@ -106,8 +100,8 @@ body{
 
 
 
-h1{
 
+h1{
 
     position:relative;
 
@@ -115,9 +109,7 @@ h1{
 
     font-size:
 
-
     clamp(50px,9vw,115px);
-
 
 
 
@@ -129,7 +121,6 @@ h1{
 
 
 
-
     background:
 
 
@@ -137,27 +128,19 @@ h1{
 
         90deg,
 
-
         #ffffff 0%,
-
 
         #fff3a0 45%,
 
-
         #d9b638 100%
-
 
     );
 
 
 
-
-
     -webkit-background-clip:text;
 
-
     -webkit-text-fill-color:transparent;
-
 
 
 
@@ -171,7 +154,6 @@ h1{
     drop-shadow(0 0 30px rgba(255,255,255,.20));
 
 
-
 }
 
 
@@ -179,9 +161,7 @@ h1{
 
 
 
-
-
-/* Visa flotando arriba */
+/* Visa al costado de la S */
 
 small{
 
@@ -190,13 +170,11 @@ small{
 
 
 
-    right:15px;
+    right:-55px;
 
 
 
-    top:-48px;
-
-
+    top:-22px;
 
 
 
@@ -213,7 +191,6 @@ small{
 
 
     font-style:italic;
-
 
 
 
@@ -242,39 +219,29 @@ small{
 
 
 
-
 @keyframes entrada{
 
 
 from{
 
-
 opacity:0;
-
 
 transform:translateY(30px);
 
-
 }
-
 
 
 
 to{
 
-
 opacity:1;
-
 
 transform:translateY(0);
 
-
 }
 
 
 }
-
-
 
 
 
@@ -325,10 +292,10 @@ small{
 font-size:18px;
 
 
-right:10px;
+right:-35px;
 
 
-top:-30px;
+top:-15px;
 
 
 }
