@@ -33,7 +33,6 @@ body{
 
     position:absolute;
 
-
     left:50%;
     top:-1400px;
 
@@ -53,24 +52,18 @@ body{
 
     background:
 
-
     radial-gradient(
         ellipse at center,
 
-
         rgba(255,235,150,0.42) 0%,
-
 
         rgba(255,220,100,0.25) 35%,
 
-
         rgba(160,120,30,0.10) 60%,
-
 
         rgba(0,0,0,0) 85%
 
     );
-
 
 
     filter:blur(115px);
@@ -84,21 +77,16 @@ body{
 
 
 
-
-
 .logo{
-
 
     position:relative;
 
-
     z-index:2;
-
 
     animation:entrada 1.4s ease;
 
-
 }
+
 
 
 
@@ -113,14 +101,11 @@ h1{
 
     font-size:
 
-
     clamp(50px,9vw,115px);
 
 
 
-
     font-weight:900;
-
 
 
     letter-spacing:-5px;
@@ -130,30 +115,22 @@ h1{
 
     background:
 
-
-
     linear-gradient(
 
         90deg,
 
-
         #ffffff 0%,
-
 
         #fff3a0 45%,
 
-
         #d9b638 100%
-
 
     );
 
 
 
 
-
     -webkit-background-clip:text;
-
 
     -webkit-text-fill-color:transparent;
 
@@ -165,7 +142,6 @@ h1{
 
     drop-shadow(0 0 12px rgba(255,255,255,.35))
 
-
     drop-shadow(0 0 30px rgba(255,255,255,.20));
 
 
@@ -176,8 +152,7 @@ h1{
 
 
 
-/* Visa arriba de la S */
-
+/* Visa pegada a la S */
 
 small{
 
@@ -186,19 +161,19 @@ small{
 
 
 
-    right:-38px;
+    right:-12px;
 
 
-    top:-48px;
-
-
-
-
-    font-size:28px;
+    top:-38px;
 
 
 
-    letter-spacing:3px;
+
+    font-size:26px;
+
+
+
+    letter-spacing:1px;
 
 
 
@@ -206,18 +181,15 @@ small{
 
 
 
+    font-style:italic;
+
+
+
 
     color:white;
 
 
-
     -webkit-text-fill-color:white;
-
-
-
-
-
-    transform:rotate(-18deg);
 
 
 
@@ -226,7 +198,6 @@ small{
 
 
     drop-shadow(0 0 12px rgba(255,255,255,.45));
-
 
 
 }
@@ -272,7 +243,6 @@ transform:translateY(0);
 
 
 
-
 @media(max-width:700px){
 
 
@@ -310,16 +280,17 @@ letter-spacing:-3px;
 
 
 
+
 small{
 
 
 font-size:20px;
 
 
-right:-25px;
+right:-8px;
 
 
-top:-30px;
+top:-25px;
 
 
 }
