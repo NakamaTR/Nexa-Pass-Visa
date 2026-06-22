@@ -107,6 +107,7 @@ body{
 
 
 
+
 h1{
 
 
@@ -121,6 +122,7 @@ h1{
 
 
 
+
     font-weight:900;
 
 
@@ -131,6 +133,7 @@ h1{
 
 
     background:
+
 
 
     linear-gradient(
@@ -179,7 +182,7 @@ h1{
 
 
 
-/* Visa estilo flotante como el ejemplo */
+/* Visa integrada con la S */
 
 small{
 
@@ -188,16 +191,16 @@ small{
 
 
 
-    right:-85px;
+    right:-70px;
 
 
 
-    top:-20px;
+    top:-8px;
 
 
 
 
-    font-size:22px;
+    font-size:28px;
 
 
 
@@ -210,6 +213,7 @@ small{
 
 
     font-style:italic;
+
 
 
 
@@ -316,13 +320,13 @@ letter-spacing:-3px;
 small{
 
 
-font-size:18px;
+font-size:22px;
 
 
-right:-55px;
+right:-45px;
 
 
-top:-12px;
+top:-5px;
 
 
 }
