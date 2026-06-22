@@ -42,13 +42,6 @@ body{
     backdrop-filter:blur(10px);
 
     transition:.3s;
-}
-
-.menu-btn:hover{
-
-    background:rgba(227,151,0,.08);
-
-    box-shadow:0 0 18px rgba(227,151,0,.20);
 
 }
 
@@ -233,11 +226,13 @@ body{
 
 }
 
-.sidebar a:hover i{
+.sidebar a:hover{
 
-    color:#E39700;
+    background:#242222;
 
-    transform:none;
+    border-left:5px solid #E39700;
+
+    color:#ffffff;
 
 }
 
@@ -261,9 +256,10 @@ body{
     background:
     radial-gradient(
         ellipse at center,
-        rgba(255,235,150,0.42) 0%,
-        rgba(255,220,100,0.25) 35%,
-        rgba(160,120,30,0.10) 60%,
+
+        rgba(227,151,0,0.35) 0%,
+        rgba(227,151,0,0.18) 35%,
+        rgba(227,151,0,0.08) 60%,
         rgba(0,0,0,0) 85%
     );
 
@@ -297,8 +293,8 @@ h1{
     linear-gradient(
         90deg,
         #ffffff 0%,
-        #fff3a0 45%,
-        #d9b638 100%
+        #ffe2a3 40%,
+        #E39700 100%
     );
 
     -webkit-background-clip:text;
@@ -307,7 +303,8 @@ h1{
 
     filter:
     drop-shadow(0 0 12px rgba(255,255,255,.35))
-    drop-shadow(0 0 30px rgba(255,255,255,.20));
+    drop-shadow(0 0 30px rgba(227,151,0,.18));
+
 }
 
 small{
