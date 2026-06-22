@@ -147,7 +147,9 @@ body{
 
     color:#8f8f8f;
 
-    font-size:26px;
+    font-size:30px;
+
+    font-weight:700;
 
     cursor:pointer;
 
@@ -167,11 +169,11 @@ body{
 
 .menu-logo{
 
-    padding:0 35px 40px;
+    padding:0 35px 50px;
 
-    font-size:32px;
+    font-size:28px;
 
-    font-weight:700;
+    font-weight:650;
 
     letter-spacing:-1px;
 
@@ -196,13 +198,13 @@ body{
 
     display:block;
 
-    padding:22px 35px;
+    padding:16px 35px;
 
     color:white;
 
     text-decoration:none;
 
-    font-size:18px;
+    font-size:17px;
 
     transition:.3s;
 
