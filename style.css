@@ -18,12 +18,21 @@ body{
 /* MENU */
 
 .menu-btn{
+
     position:absolute;
+
     top:30px;
     left:30px;
+
     z-index:30;
 
-    padding:10px 20px;
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:12px 26px;
 
     border:1px solid rgba(227,151,0,.65);
 
@@ -31,9 +40,11 @@ body{
 
     color:#E39700;
 
-    font-size:15px;
+    font-size:16px;
 
-    font-weight:600;
+    font-weight:700;
+
+    letter-spacing:.3px;
 
     cursor:pointer;
 
@@ -46,13 +57,19 @@ body{
 }
 
 .menu-btn:hover{
+
     background:rgba(227,151,0,.08);
+
     box-shadow:0 0 18px rgba(227,151,0,.20);
+
 }
 
-.menu-btn.hidden{
-    opacity:0;
-    pointer-events:none;
+.menu-btn i{
+
+    font-size:18px;
+
+    color:#E39700;
+
 }
 
 /* OVERLAY */
