@@ -102,26 +102,33 @@ body{
 /* X */
 
 .close-btn{
+
     position:absolute;
 
-    top:25px;
+    top:26px;
+
     right:25px;
 
     color:#8f8f8f;
 
-    font-size:22px;
-    font-weight:800;
+    font-size:18px;
+
+    font-weight:500;
 
     cursor:pointer;
 
     transition:
     color .3s ease,
     transform .3s ease;
+
 }
 
 .close-btn:hover{
+
     color:white;
-    transform:rotate(180deg);
+
+    transform:rotate(90deg);
+
 }
 
 /* LOGO MENU */
@@ -130,11 +137,13 @@ body{
 
     padding:0 35px 50px;
 
-    font-size:26px;
+    font-size:22px;
 
-    font-weight:600;
+    font-weight:500;
 
-    letter-spacing:-1px;
+    letter-spacing:-0.5px;
+
+    line-height:1;
 
     background:
     linear-gradient(
@@ -146,6 +155,7 @@ body{
 
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
+
 }
 
 /* LINKS */
@@ -160,20 +170,26 @@ body{
 
     padding:14px 35px;
 
-    color:white;
+    color:#cfcfcf;
 
     text-decoration:none;
 
-    font-size:17px;
+    font-size:16px;
 
-    transition:.3s;
+    transition:.3s ease;
+
+    border-left:3px solid transparent;
+
 }
 
 .sidebar a:hover{
 
-    color:#ffd86b;
+    background:#242222;
 
-    background:rgba(255,220,100,.05);
+    border-left:3px solid #E39700;
+
+    color:white;
+
 }
 
 /* ICONOS */
@@ -188,21 +204,24 @@ body{
 
     align-items:center;
 
-    color:#ffd86b;
+    color:#242222;
+
 }
 
 .sidebar a i{
 
-    font-size:17px;
+    font-size:16px;
 
     transition:.3s ease;
+
 }
 
 .sidebar a:hover i{
 
-    transform:translateX(3px);
+    color:#E39700;
 
-    color:#fff0a8;
+    transform:none;
+
 }
 
 /* RESPLANDOR */
