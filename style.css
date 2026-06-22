@@ -25,7 +25,8 @@ body{
 }
 
 
-/* Resplandor gigante centrado */
+
+/* Resplandor grande */
 
 .glow{
 
@@ -39,7 +40,6 @@ body{
 
     width:1700px;
     height:1500px;
-
 
 
     background:
@@ -60,14 +60,12 @@ body{
 
     filter:blur(90px);
 
-
     z-index:0;
 
 }
 
 
 
-/* Contenedor logo */
 
 .logo{
 
@@ -82,16 +80,12 @@ body{
 
 
 
-/* Texto principal */
-
 h1{
-
 
     position:relative;
 
 
     font-size:
-
     clamp(60px,12vw,150px);
 
 
@@ -106,7 +100,6 @@ h1{
     background:
 
     linear-gradient(
-
         90deg,
 
         #ffffff 0%,
@@ -125,21 +118,24 @@ h1{
 
 
 
+
+    /* resplandor negro */
+
     text-shadow:
 
 
-    0 0 20px rgba(255,255,255,.9),
+    0 0 15px rgba(0,0,0,0.9),
 
-    0 0 45px rgba(255,255,255,.45),
+    0 0 35px rgba(0,0,0,0.55),
 
-    0 15px 50px rgba(255,210,70,.35);
+    0 15px 45px rgba(0,0,0,0.45);
 
 
 }
 
 
 
-/* Visa arriba */
+/* Visa */
 
 small{
 
@@ -171,14 +167,14 @@ small{
 
     text-shadow:
 
-    0 0 18px rgba(255,255,255,.9);
+    0 0 18px rgba(0,0,0,.8);
 
 
 }
 
 
 
-/* Animación entrada */
+
 
 @keyframes entrada{
 
@@ -206,11 +202,7 @@ transform:translateY(0);
 
 
 
-
-/* Adaptado celular */
-
 @media(max-width:700px){
-
 
 
 .glow{
