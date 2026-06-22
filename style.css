@@ -66,8 +66,7 @@ body{
 }
 
 
-
-/* OVERLAY OSCURO */
+/* OVERLAY */
 
 .overlay{
 
@@ -94,7 +93,6 @@ body{
     visibility:visible;
 
 }
-
 
 
 /* SIDEBAR */
@@ -130,8 +128,7 @@ body{
 }
 
 
-
-/* LINKS MENU */
+/* LINKS */
 
 .sidebar a{
 
@@ -158,8 +155,7 @@ body{
 }
 
 
-
-/* RESPLANDOR SUPERIOR */
+/* RESPLANDOR */
 
 .glow{
 
@@ -184,6 +180,7 @@ body{
         rgba(255,220,100,0.25) 35%,
         rgba(160,120,30,0.10) 60%,
         rgba(0,0,0,0) 85%
+
     );
 
     filter:blur(115px);
@@ -191,7 +188,6 @@ body{
     z-index:0;
 
 }
-
 
 
 /* LOGO */
@@ -205,7 +201,6 @@ body{
     animation:entrada 1.4s ease;
 
 }
-
 
 
 /* NEXA PASS */
@@ -238,7 +233,6 @@ h1{
 }
 
 
-
 /* VISA */
 
 small{
@@ -247,7 +241,7 @@ small{
 
     right:-92px;
 
-    top:0px;
+    top:0;
 
     font-size:46px;
 
@@ -267,7 +261,6 @@ small{
 }
 
 
-
 /* ANIMACIÓN */
 
 @keyframes entrada{
@@ -283,7 +276,6 @@ small{
     }
 
 }
-
 
 
 /* RESPONSIVE */
