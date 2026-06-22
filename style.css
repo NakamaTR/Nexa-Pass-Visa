@@ -34,7 +34,7 @@ body{
 
 
     left:50%;
-    top:-1050px;
+    top:-950px;
 
 
     transform:translateX(-50%);
@@ -42,7 +42,7 @@ body{
 
 
     width:3200px;
-    height:1600px;
+    height:2200px;
 
 
 
@@ -59,7 +59,7 @@ body{
 
         rgba(255,220,100,0.25) 35%,
 
-        rgba(160,120,30,0.10) 65%,
+        rgba(160,120,30,0.10) 60%,
 
         rgba(0,0,0,0) 85%
 
@@ -67,14 +67,13 @@ body{
 
 
 
-    filter:blur(110px);
+    filter:blur(115px);
 
 
 
     z-index:0;
 
 }
-
 
 
 
