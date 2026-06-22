@@ -32,21 +32,21 @@ body{
 
     position:absolute;
 
-    width:100%;
-    height:280px;
+    width:280px;
+    height:100%;
 
     background:
     linear-gradient(
-        90deg,
+        180deg,
         #050505 0%,
-        #4a3908 15%,
-        #ffd83d 50%,
-        #4a3908 85%,
+        #4a3b12 20%,
+        #d8b933 50%,
+        #4a3b12 80%,
         #050505 100%
     );
 
 
-    filter:blur(2px);
+    filter:blur(3px);
 
     z-index:0;
 
