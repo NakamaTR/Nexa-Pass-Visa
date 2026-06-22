@@ -95,7 +95,7 @@ body{
 
     transition:.4s ease;
 
-    border-right:2px solid #E39700;
+    border-right:1px solid #E39700;
 }
 
 .sidebar.active{
@@ -151,16 +151,9 @@ body{
     "Trebuchet MS",
     sans-serif;
 
-    background:
-    linear-gradient(
-        90deg,
-        #ffffff 0%,
-        #ffe2a3 35%,
-        #E39700 100%
-    );
+    color:#E39700;
 
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color:#E39700;
 
 }
 
