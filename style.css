@@ -25,14 +25,14 @@ body{
 }
 
 
-/* Halo amarillo circular */
+/* Resplandor circular grande */
 
 .glow{
 
     position:absolute;
 
-    width:850px;
-    height:850px;
+    width:1200px;
+    height:1200px;
 
     border-radius:50%;
 
@@ -41,17 +41,19 @@ body{
 
     radial-gradient(
         circle,
-        rgba(255,220,90,0.85) 0%,
-        rgba(220,175,45,0.45) 25%,
-        rgba(120,90,20,0.20) 50%,
+        rgba(255,225,100,0.75) 0%,
+        rgba(255,210,70,0.45) 25%,
+        rgba(150,115,30,0.20) 50%,
         rgba(0,0,0,0) 75%
     );
 
 
-    filter:blur(35px);
+    filter:blur(45px);
 
 
-    animation:brillo 5s infinite alternate;
+    z-index:0;
+
+    animation:halo 5s ease-in-out infinite alternate;
 
 }
 
@@ -91,26 +93,33 @@ h1{
 
     linear-gradient(
         90deg,
-        #ffffff,
-        #fff4b0,
-        #e0bd42
+        #ffffff 0%,
+        #fff7b5 45%,
+        #e2bd35 100%
     );
 
 
     -webkit-background-clip:text;
-
     -webkit-text-fill-color:transparent;
 
 
 
+    /* borde negro + brillo blanco */
+
+    -webkit-text-stroke:
+
+    2px rgba(0,0,0,0.7);
+
+
     text-shadow:
 
-    0 0 15px rgba(255,255,255,.8),
-    0 0 35px rgba(255,255,255,.45),
-    0 10px 40px rgba(255,215,80,.4);
+    0 0 12px rgba(255,255,255,.9),
+    0 0 35px rgba(255,255,255,.55),
+    0 15px 50px rgba(255,210,70,.35);
 
 
 }
+
 
 
 
@@ -120,11 +129,9 @@ small{
 
     position:absolute;
 
-
     right:-5px;
 
-    top:-30px;
-
+    top:-35px;
 
 
     font-size:35px;
@@ -136,23 +143,23 @@ small{
     font-weight:700;
 
 
-
     color:white;
 
     -webkit-text-fill-color:white;
 
+
+    -webkit-text-stroke:0;
 
 
     text-shadow:
 
     0 0 15px white;
 
-
 }
 
 
 
-/* Entrada */
+/* Animaciones */
 
 @keyframes entrada{
 
@@ -174,14 +181,11 @@ transform:translateY(0);
 
 }
 
-
 }
 
 
 
-/* movimiento suave */
-
-@keyframes brillo{
+@keyframes halo{
 
 
 from{
@@ -206,18 +210,18 @@ opacity:1;
 
 
 
+/* Movil */
 
 @media(max-width:700px){
 
 
 .glow{
 
-width:500px;
+width:700px;
 
-height:500px;
+height:700px;
 
 }
-
 
 
 h1{
@@ -225,6 +229,8 @@ h1{
 font-size:55px;
 
 letter-spacing:-3px;
+
+-webkit-text-stroke:1px rgba(0,0,0,.7);
 
 }
 
@@ -234,7 +240,7 @@ small{
 
 font-size:20px;
 
-top:-18px;
+top:-20px;
 
 }
 
