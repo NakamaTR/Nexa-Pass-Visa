@@ -7,7 +7,9 @@
 
 <title>Nexa Pass Visa</title>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -25,22 +27,22 @@
     </div>
 
     <a href="#">
-        <span>⌂</span>
+        <span><i class="fa-solid fa-house"></i></span>
         Inicio
     </a>
 
     <a href="#">
-        <span>✈</span>
+        <span><i class="fa-solid fa-plane"></i></span>
         Visas
     </a>
 
     <a href="#">
-        <span>◈</span>
+        <span><i class="fa-solid fa-feather"></i></span>
         Servicios
     </a>
 
     <a href="#">
-        <span>✉</span>
+        <span><i class="fa-solid fa-phone"></i></span>
         Contacto
     </a>
 
@@ -53,10 +55,12 @@
 <div class="glow"></div>
 
 <div class="logo">
+
     <h1>
         Nexa Pass
         <small>Visa</small>
     </h1>
+
 </div>
 
 <script>
@@ -64,9 +68,7 @@
 function toggleMenu(){
 
     document.getElementById("sidebar").classList.toggle("active");
-
     document.getElementById("overlay").classList.toggle("active");
-
     document.querySelector(".menu-btn").classList.toggle("hidden");
 
 }
@@ -74,9 +76,7 @@ function toggleMenu(){
 document.getElementById("overlay").addEventListener("click", function(){
 
     document.getElementById("sidebar").classList.remove("active");
-
     document.getElementById("overlay").classList.remove("active");
-
     document.querySelector(".menu-btn").classList.remove("hidden");
 
 });
@@ -84,5 +84,4 @@ document.getElementById("overlay").addEventListener("click", function(){
 </script>
 
 </body>
-
 </html>
