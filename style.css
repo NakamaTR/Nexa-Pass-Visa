@@ -20,8 +20,8 @@ body{
     radial-gradient(
         circle at center,
         #ffd83d 0%,
-        #e8b929 35%,
-        #7a5b13 65%,
+        #e8b929 15%,
+        #7a5b13 40%,
         #080808 100%
     );
 
