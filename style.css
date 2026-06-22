@@ -228,17 +228,19 @@ body{
 
 
 
-/* ICONOS PREMIUM */
+/* ICONOS */
 
 .sidebar a span{
 
-    width:24px;
+    width:28px;
 
     color:#ffd86b;
 
-    font-size:18px;
+    font-size:19px;
 
     text-align:center;
+
+    opacity:.95;
 
 }
 
@@ -376,36 +378,24 @@ small{
 @media(max-width:700px){
 
     .glow{
-
         width:2300px;
         height:1800px;
-
         filter:blur(90px);
-
     }
 
     h1{
-
         font-size:55px;
-
         letter-spacing:-3px;
-
     }
 
     small{
-
         font-size:34px;
-
         right:-65px;
-
         top:2px;
-
     }
 
     .sidebar{
-
         width:280px;
-
     }
 
 }
