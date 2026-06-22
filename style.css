@@ -184,7 +184,7 @@ h1{
 
 
 
-/* Visa pegada a la S */
+/* Visa arriba de la S final */
 
 small{
 
@@ -193,23 +193,21 @@ small{
 
 
 
-    right:-3px;
+    right:-8px;
 
 
 
-    top:-30px;
+    top:-38px;
 
 
 
 
 
-    font-size:22px;
+    font-size:20px;
 
 
 
     letter-spacing:1px;
-
-
 
 
 
@@ -237,7 +235,6 @@ small{
 
 
     drop-shadow(0 0 8px rgba(255,255,255,.35));
-
 
 
 }
@@ -331,10 +328,10 @@ small{
 font-size:18px;
 
 
-right:-2px;
+right:-5px;
 
 
-top:-22px;
+top:-25px;
 
 
 }
