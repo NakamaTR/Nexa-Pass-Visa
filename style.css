@@ -17,11 +17,12 @@ body{
     overflow:hidden;
 
     background:
-    radial-gradient(
-        circle at center,
-        #ffd83d 0%,
-        #e8b929 15%,
-        #7a5b13 40%,
+    linear-gradient(
+        90deg,
+        #080808 0%,
+        #3d3008 20%,
+        #ffd83d 50%,
+        #3d3008 80%,
         #080808 100%
     );
 
