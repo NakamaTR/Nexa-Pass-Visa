@@ -18,9 +18,13 @@
 
 <div class="sidebar" id="sidebar">
 
+    <div class="menu-logo">
+        Nexa Pass
+    </div>
+
     <a href="#">Inicio</a>
-    <a href="#">Servicios</a>
     <a href="#">Visas</a>
+    <a href="#">Servicios</a>
     <a href="#">Contacto</a>
 
 </div>
@@ -45,14 +49,20 @@
 function toggleMenu(){
 
     document.getElementById("sidebar").classList.toggle("active");
+
     document.getElementById("overlay").classList.toggle("active");
+
+    document.querySelector(".menu-btn").classList.toggle("hidden");
 
 }
 
 document.getElementById("overlay").addEventListener("click", function(){
 
     document.getElementById("sidebar").classList.remove("active");
+
     document.getElementById("overlay").classList.remove("active");
+
+    document.querySelector(".menu-btn").classList.remove("hidden");
 
 });
 
