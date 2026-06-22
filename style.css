@@ -38,8 +38,8 @@ body{
     transform:translate(-50%, -50%);
 
 
-    width:1800px;
-    height:1700px;
+    width:2100px;
+    height:1900px;
 
 
     background:
@@ -49,22 +49,22 @@ body{
 
         rgba(0,0,0,0) 0%,
 
-        rgba(0,0,0,0.45) 10%,
+        rgba(0,0,0,0.35) 8%,
 
-        rgba(255,225,120,0.25) 28%,
+        rgba(255,225,120,0.18) 25%,
 
-        rgba(255,235,150,0.50) 50%,
+        rgba(255,235,150,0.42) 50%,
 
-        rgba(255,225,120,0.25) 72%,
+        rgba(255,225,120,0.18) 75%,
 
-        rgba(0,0,0,0.45) 90%,
+        rgba(0,0,0,0.35) 92%,
 
         rgba(0,0,0,0) 100%
 
     );
 
 
-    filter:blur(95px);
+    filter:blur(105px);
 
 
     z-index:0;
