@@ -26,7 +26,7 @@ body{
 
 
 
-/* Resplandor grande */
+/* Resplandor gigante */
 
 .glow{
 
@@ -49,11 +49,11 @@ body{
 
         rgba(255,220,100,0.45) 0%,
 
-        rgba(230,190,70,0.30) 35%,
+        rgba(230,190,70,0.28) 35%,
 
-        rgba(140,105,25,0.15) 60%,
+        rgba(140,105,25,0.12) 65%,
 
-        rgba(0,0,0,0) 82%
+        rgba(0,0,0,0) 85%
 
     );
 
@@ -63,6 +63,7 @@ body{
     z-index:0;
 
 }
+
 
 
 
@@ -82,6 +83,7 @@ body{
 
 h1{
 
+
     position:relative;
 
 
@@ -94,6 +96,7 @@ h1{
 
 
     letter-spacing:-7px;
+
 
 
 
@@ -111,34 +114,31 @@ h1{
     );
 
 
-
     -webkit-background-clip:text;
 
     -webkit-text-fill-color:transparent;
 
 
 
+    /* brillo SOLO exterior */
 
-    /* resplandor negro */
+    filter:
 
-    text-shadow:
+    drop-shadow(0 0 8px rgba(0,0,0,.9))
 
+    drop-shadow(0 0 20px rgba(0,0,0,.7))
 
-    0 0 15px rgba(0,0,0,0.9),
-
-    0 0 35px rgba(0,0,0,0.55),
-
-    0 15px 45px rgba(0,0,0,0.45);
+    drop-shadow(0 10px 30px rgba(0,0,0,.5));
 
 
 }
 
 
 
+
 /* Visa */
 
 small{
-
 
     position:absolute;
 
@@ -165,13 +165,11 @@ small{
 
 
 
-    text-shadow:
+    filter:
 
-    0 0 18px rgba(0,0,0,.8);
-
+    drop-shadow(0 0 10px rgba(0,0,0,.8));
 
 }
-
 
 
 
