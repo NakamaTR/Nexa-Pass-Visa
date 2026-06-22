@@ -32,17 +32,22 @@ body{
 
     position:absolute;
 
+
     left:50%;
-    top:-250px;
+    top:-750px;
+
 
     transform:translateX(-50%);
 
 
-    width:1700px;
-    height:900px;
+
+    width:2200px;
+    height:1100px;
 
 
-    border-radius:0 0 900px 900px;
+
+    border-radius:0 0 1100px 1100px;
+
 
 
     background:
@@ -61,7 +66,9 @@ body{
     );
 
 
-    filter:blur(90px);
+
+    filter:blur(95px);
+
 
 
     z-index:0;
