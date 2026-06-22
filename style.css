@@ -25,33 +25,33 @@ body{
 }
 
 
-/* Resplandor circular grande */
+/* Resplandor rectangular gigante */
 
 .glow{
 
     position:absolute;
 
     width:1200px;
-    height:1200px;
-
-    border-radius:50%;
+    height:650px;
 
 
     background:
 
-    radial-gradient(
-        circle,
-        rgba(255,225,100,0.75) 0%,
-        rgba(255,210,70,0.45) 25%,
-        rgba(150,115,30,0.20) 50%,
-        rgba(0,0,0,0) 75%
+    linear-gradient(
+        90deg,
+        rgba(0,0,0,0) 0%,
+        rgba(255,200,50,0.45) 20%,
+        rgba(255,220,90,1) 50%,
+        rgba(255,200,50,0.45) 80%,
+        rgba(0,0,0,0) 100%
     );
 
 
-    filter:blur(45px);
+    filter:blur(55px);
 
 
     z-index:0;
+
 
     animation:halo 5s ease-in-out infinite alternate;
 
@@ -59,7 +59,6 @@ body{
 
 
 
-/* Logo */
 
 .logo{
 
@@ -73,12 +72,15 @@ body{
 
 
 
+
 h1{
+
 
     position:relative;
 
 
     font-size:
+
     clamp(60px,12vw,150px);
 
 
@@ -89,37 +91,34 @@ h1{
 
 
 
+    /* Degradado blanco amarillo */
+
     background:
 
     linear-gradient(
         90deg,
         #ffffff 0%,
-        #fff7b5 45%,
-        #e2bd35 100%
+        #fff4a6 45%,
+        #e5bd38 100%
     );
 
 
     -webkit-background-clip:text;
+
     -webkit-text-fill-color:transparent;
 
 
 
-    /* borde negro + brillo blanco */
-
-    -webkit-text-stroke:
-
-    2px rgba(0,0,0,0.7);
-
-
     text-shadow:
 
-    0 0 12px rgba(255,255,255,.9),
-    0 0 35px rgba(255,255,255,.55),
-    0 15px 50px rgba(255,210,70,.35);
 
+    0 0 20px rgba(255,255,255,.95),
+
+    0 0 50px rgba(255,255,255,.55),
+
+    0 15px 50px rgba(255,210,70,.45);
 
 }
-
 
 
 
@@ -127,11 +126,14 @@ h1{
 
 small{
 
+
     position:absolute;
+
 
     right:-5px;
 
     top:-35px;
+
 
 
     font-size:35px;
@@ -143,23 +145,22 @@ small{
     font-weight:700;
 
 
+
     color:white;
 
     -webkit-text-fill-color:white;
 
 
-    -webkit-text-stroke:0;
-
 
     text-shadow:
 
-    0 0 15px white;
+    0 0 18px white;
 
 }
 
 
 
-/* Animaciones */
+
 
 @keyframes entrada{
 
@@ -181,7 +182,9 @@ transform:translateY(0);
 
 }
 
+
 }
+
 
 
 
@@ -192,14 +195,14 @@ from{
 
 transform:scale(.95);
 
-opacity:.8;
+opacity:.85;
 
 }
 
 
 to{
 
-transform:scale(1.08);
+transform:scale(1.12);
 
 opacity:1;
 
@@ -210,16 +213,15 @@ opacity:1;
 
 
 
-/* Movil */
 
 @media(max-width:700px){
 
 
 .glow{
 
-width:700px;
+width:800px;
 
-height:700px;
+height:450px;
 
 }
 
@@ -229,8 +231,6 @@ h1{
 font-size:55px;
 
 letter-spacing:-3px;
-
--webkit-text-stroke:1px rgba(0,0,0,.7);
 
 }
 
