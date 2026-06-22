@@ -16,7 +16,7 @@ body{
 }
 
 
-/* MENU */
+/* BOTÓN MENU */
 
 .menu-btn{
 
@@ -47,16 +47,11 @@ body{
 
     backdrop-filter:blur(10px);
 
-    box-shadow:
-    0 0 12px rgba(255,220,100,.12);
-
     transition:.3s ease;
 
 }
 
 .menu-btn:hover{
-
-    transform:translateY(-2px);
 
     background:rgba(255,220,100,.08);
 
@@ -64,6 +59,15 @@ body{
     0 0 18px rgba(255,220,100,.20);
 
 }
+
+.menu-btn.hidden{
+
+    opacity:0;
+
+    pointer-events:none;
+
+}
+
 
 
 /* OVERLAY */
@@ -74,7 +78,7 @@ body{
 
     inset:0;
 
-    background:rgba(0,0,0,.70);
+    background:rgba(0,0,0,.72);
 
     opacity:0;
 
@@ -95,6 +99,7 @@ body{
 }
 
 
+
 /* SIDEBAR */
 
 .sidebar{
@@ -103,21 +108,22 @@ body{
 
     top:0;
 
-    left:-320px;
+    left:-340px;
 
-    width:320px;
+    width:340px;
 
     height:100vh;
 
     background:#050505;
 
-    border-right:1px solid rgba(255,220,100,.65);
-
     z-index:20;
 
-    padding-top:100px;
+    padding-top:60px;
 
-    transition:.35s ease;
+    transition:.4s ease;
+
+    box-shadow:
+    15px 0 50px rgba(255,220,100,.12);
 
 }
 
@@ -128,17 +134,46 @@ body{
 }
 
 
+
+/* LOGO MENÚ */
+
+.menu-logo{
+
+    padding:0 35px 40px;
+
+    font-size:38px;
+
+    font-weight:900;
+
+    letter-spacing:-2px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #fff3a0,
+        #d9b638
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+
+
+
 /* LINKS */
 
 .sidebar a{
 
     display:block;
 
-    padding:20px 35px;
-
-    text-decoration:none;
+    padding:22px 35px;
 
     color:white;
+
+    text-decoration:none;
 
     font-size:18px;
 
@@ -155,7 +190,8 @@ body{
 }
 
 
-/* RESPLANDOR */
+
+/* RESPLANDOR SUPERIOR */
 
 .glow{
 
@@ -190,7 +226,8 @@ body{
 }
 
 
-/* LOGO */
+
+/* LOGO CENTRAL */
 
 .logo{
 
@@ -201,6 +238,7 @@ body{
     animation:entrada 1.4s ease;
 
 }
+
 
 
 /* NEXA PASS */
@@ -224,6 +262,7 @@ h1{
     );
 
     -webkit-background-clip:text;
+
     -webkit-text-fill-color:transparent;
 
     filter:
@@ -231,6 +270,7 @@ h1{
     drop-shadow(0 0 30px rgba(255,255,255,.20));
 
 }
+
 
 
 /* VISA */
@@ -245,8 +285,6 @@ small{
 
     font-size:46px;
 
-    letter-spacing:1px;
-
     font-weight:400;
 
     font-style:italic;
@@ -259,6 +297,7 @@ small{
     drop-shadow(0 0 8px rgba(255,255,255,.35));
 
 }
+
 
 
 /* ANIMACIÓN */
@@ -276,6 +315,7 @@ small{
     }
 
 }
+
 
 
 /* RESPONSIVE */
@@ -306,17 +346,6 @@ small{
         right:-65px;
 
         top:2px;
-
-    }
-
-    .menu-btn{
-
-        font-size:14px;
-
-        padding:8px 16px;
-
-        top:15px;
-        left:15px;
 
     }
 
