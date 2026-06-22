@@ -26,7 +26,7 @@ body{
 
 
 
-/* Resplandor gigante */
+/* Resplandor grande blanco suave */
 
 .glow{
 
@@ -47,18 +47,17 @@ body{
     radial-gradient(
         ellipse at center,
 
-        rgba(255,220,100,0.45) 0%,
+        rgba(255,255,255,0.18) 0%,
 
-        rgba(230,190,70,0.28) 35%,
+        rgba(255,230,140,0.10) 35%,
 
-        rgba(140,105,25,0.12) 65%,
-
-        rgba(0,0,0,0) 85%
+        rgba(0,0,0,0) 75%
 
     );
 
 
-    filter:blur(90px);
+    filter:blur(100px);
+
 
     z-index:0;
 
@@ -99,7 +98,6 @@ h1{
 
 
 
-
     background:
 
     linear-gradient(
@@ -120,15 +118,13 @@ h1{
 
 
 
-    /* brillo SOLO exterior */
+    /* brillo externo blanco */
 
     filter:
 
-    drop-shadow(0 0 8px rgba(0,0,0,.9))
+    drop-shadow(0 0 12px rgba(255,255,255,.45))
 
-    drop-shadow(0 0 20px rgba(0,0,0,.7))
-
-    drop-shadow(0 10px 30px rgba(0,0,0,.5));
+    drop-shadow(0 0 35px rgba(255,255,255,.25));
 
 
 }
@@ -139,6 +135,7 @@ h1{
 /* Visa */
 
 small{
+
 
     position:absolute;
 
@@ -167,7 +164,8 @@ small{
 
     filter:
 
-    drop-shadow(0 0 10px rgba(0,0,0,.8));
+    drop-shadow(0 0 12px rgba(255,255,255,.45));
+
 
 }
 
@@ -200,6 +198,7 @@ transform:translateY(0);
 
 
 
+
 @media(max-width:700px){
 
 
@@ -209,7 +208,7 @@ width:1000px;
 
 height:1100px;
 
-filter:blur(70px);
+filter:blur(80px);
 
 }
 
