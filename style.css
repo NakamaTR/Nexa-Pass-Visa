@@ -30,9 +30,9 @@ body{
 
     align-items:center;
 
-    gap:10px;
+    gap:12px;
 
-    padding:12px 26px;
+    padding:14px 30px;
 
     border:1px solid rgba(227,151,0,.65);
 
@@ -40,11 +40,11 @@ body{
 
     color:#E39700;
 
-    font-size:16px;
+    font-size:18px;
 
     font-weight:700;
 
-    letter-spacing:.3px;
+    letter-spacing:.4px;
 
     cursor:pointer;
 
@@ -66,7 +66,7 @@ body{
 
 .menu-btn i{
 
-    font-size:18px;
+    font-size:20px;
 
     color:#E39700;
 
