@@ -27,6 +27,7 @@ body{
 
 
 
+
 /* Resplandor superior */
 
 .glow{
@@ -85,13 +86,18 @@ body{
 
 
 
+
 .logo{
+
 
     position:relative;
 
+
     z-index:2;
 
+
     animation:entrada 1.4s ease;
+
 
 }
 
@@ -103,11 +109,13 @@ body{
 
 h1{
 
+
     position:relative;
 
 
 
     font-size:
+
 
     clamp(50px,9vw,115px);
 
@@ -121,6 +129,7 @@ h1{
 
 
 
+
     background:
 
 
@@ -128,19 +137,27 @@ h1{
 
         90deg,
 
+
         #ffffff 0%,
+
 
         #fff3a0 45%,
 
+
         #d9b638 100%
+
 
     );
 
 
 
+
+
     -webkit-background-clip:text;
 
+
     -webkit-text-fill-color:transparent;
+
 
 
 
@@ -161,7 +178,8 @@ h1{
 
 
 
-/* Visa al costado de la S */
+
+/* Visa estilo flotante como el ejemplo */
 
 small{
 
@@ -170,15 +188,16 @@ small{
 
 
 
-    right:-55px;
+    right:-85px;
 
 
 
-    top:-22px;
+    top:-20px;
 
 
 
-    font-size:20px;
+
+    font-size:22px;
 
 
 
@@ -224,9 +243,12 @@ small{
 
 from{
 
+
 opacity:0;
 
+
 transform:translateY(30px);
+
 
 }
 
@@ -234,14 +256,19 @@ transform:translateY(30px);
 
 to{
 
+
 opacity:1;
+
 
 transform:translateY(0);
 
+
 }
 
 
 }
+
+
 
 
 
@@ -292,10 +319,10 @@ small{
 font-size:18px;
 
 
-right:-35px;
+right:-55px;
 
 
-top:-15px;
+top:-12px;
 
 
 }
