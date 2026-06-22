@@ -16,13 +16,7 @@
     
 <body>
 
-<div class="overlay" id="overlay"></div>
-
-<div class="sidebar" id="sidebar">
-
-    <div class="close-btn" onclick="toggleMenu()">
-        ✕
-    </div>
+<div class="sidebar">
 
     <div class="menu-logo">
         Nexa Pass
@@ -50,11 +44,6 @@
 
 </div>
 
-<div class="menu-btn" onclick="toggleMenu()">
-    <i class="fa-solid fa-bars"></i>
-    Menú
-</div>
-
 <div class="glow"></div>
 
 <div class="logo">
@@ -66,29 +55,4 @@
 
 </div>
 
-<script>
-
-function toggleMenu(){
-
-    document.getElementById("sidebar").classList.toggle("active");
-
-    document.getElementById("overlay").classList.toggle("active");
-
-    document.querySelector(".menu-btn").classList.toggle("hidden");
-
-}
-
-document.getElementById("overlay").addEventListener("click", function(){
-
-    document.getElementById("sidebar").classList.remove("active");
-
-    document.getElementById("overlay").classList.remove("active");
-
-    document.querySelector(".menu-btn").classList.remove("hidden");
-
-});
-
-</script>
-
 </body>
-</html>
