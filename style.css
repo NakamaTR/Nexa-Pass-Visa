@@ -34,19 +34,19 @@ body{
 
 
     left:50%;
-    top:-750px;
+    top:-1050px;
 
 
     transform:translateX(-50%);
 
 
 
-    width:2200px;
-    height:1100px;
+    width:3200px;
+    height:1600px;
 
 
 
-    border-radius:0 0 1100px 1100px;
+    border-radius:0 0 1600px 1600px;
 
 
 
@@ -55,19 +55,19 @@ body{
     radial-gradient(
         ellipse at center,
 
-        rgba(255,235,150,0.45) 0%,
+        rgba(255,235,150,0.42) 0%,
 
-        rgba(255,220,100,0.28) 35%,
+        rgba(255,220,100,0.25) 35%,
 
-        rgba(160,120,30,0.12) 60%,
+        rgba(160,120,30,0.10) 65%,
 
-        rgba(0,0,0,0) 80%
+        rgba(0,0,0,0) 85%
 
     );
 
 
 
-    filter:blur(95px);
+    filter:blur(110px);
 
 
 
