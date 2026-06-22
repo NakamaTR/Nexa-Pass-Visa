@@ -110,23 +110,25 @@ body{
 /* SIDEBAR */
 
 .sidebar{
+
     position:fixed;
 
-    top:0;
-    left:-340px;
+    left:0;
 
-    width:270px;
+    top:0;
+
+    width:280px;
+
     height:100vh;
 
     background:#050505;
+
+    border-right:1px solid #E39700;
 
     z-index:20;
 
     padding-top:60px;
 
-    transition:.4s ease;
-
-    border-right:1px solid #E39700;
 }
 
 .sidebar.active{
@@ -282,6 +284,8 @@ body{
 /* LOGO CENTRAL */
 
 .logo{
+
+    margin-left:280px;
 
     position:relative;
 
