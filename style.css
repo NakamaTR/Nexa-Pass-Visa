@@ -34,7 +34,7 @@ body{
 
 
     left:50%;
-    top:-950px;
+    top:-1100px;
 
 
     transform:translateX(-50%);
@@ -74,7 +74,6 @@ body{
     z-index:0;
 
 }
-
 
 
 .logo{
