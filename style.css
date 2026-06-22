@@ -12,7 +12,7 @@ body{
     align-items:center;
     overflow:hidden;
     background:#050505;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 
 /* MENU */
@@ -46,8 +46,8 @@ body{
 }
 
 .menu-btn:hover{
-    background:rgba(255,220,100,.08);
-    box-shadow:0 0 18px rgba(255,220,100,.20);
+    background:rgba(227,151,0,.08);
+    box-shadow:0 0 18px rgba(227,151,0,.20);
 }
 
 .menu-btn.hidden{
@@ -142,14 +142,11 @@ body{
 
     font-size:22px;
 
-    font-weight:700;
+    font-weight:800;
 
     letter-spacing:.4px;
 
-    font-family:
-    "Segoe UI",
-    "Trebuchet MS",
-    sans-serif;
+    font-family:'Poppins', sans-serif;
 
     color:#E39700;
 
@@ -195,8 +192,6 @@ body{
 
 }
 
-}
-
 /* ICONOS */
 
 .sidebar a span{
@@ -218,16 +213,6 @@ body{
     font-size:16px;
 
     transition:.3s ease;
-
-}
-
-.sidebar a:hover{
-
-    background:#242222;
-
-    border-left:5px solid #E39700;
-
-    color:#ffffff;
 
 }
 
@@ -282,6 +267,8 @@ h1{
 
     font-weight:900;
 
+    font-family:'Poppins', sans-serif;
+
     letter-spacing:-5px;
 
     background:
@@ -312,11 +299,16 @@ small{
 
     font-size:46px;
 
+    font-family:'Poppins', sans-serif;
+
+    font-weight:500;
+
     font-style:italic;
 
     color:white;
 
     -webkit-text-fill-color:white;
+
 }
 
 /* ANIMACIÓN */
