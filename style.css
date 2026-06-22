@@ -31,8 +31,9 @@ body{
 
     position:absolute;
 
-    width:1200px;
-    height:650px;
+
+    width:1800px;
+    height:950px;
 
 
     background:
@@ -40,14 +41,14 @@ body{
     linear-gradient(
         90deg,
         rgba(0,0,0,0) 0%,
-        rgba(255,200,50,0.45) 20%,
+        rgba(255,200,50,0.35) 15%,
         rgba(255,220,90,1) 50%,
-        rgba(255,200,50,0.45) 80%,
+        rgba(255,200,50,0.35) 85%,
         rgba(0,0,0,0) 100%
     );
 
 
-    filter:blur(55px);
+    filter:blur(75px);
 
 
     z-index:0;
@@ -56,7 +57,6 @@ body{
     animation:halo 5s ease-in-out infinite alternate;
 
 }
-
 
 
 
@@ -193,7 +193,7 @@ transform:translateY(0);
 
 from{
 
-transform:scale(.95);
+transform:scale(.92);
 
 opacity:.85;
 
@@ -202,7 +202,7 @@ opacity:.85;
 
 to{
 
-transform:scale(1.12);
+transform:scale(1.08);
 
 opacity:1;
 
