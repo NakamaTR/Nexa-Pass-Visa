@@ -142,9 +142,9 @@ body{
 
     font-size:22px;
 
-    font-weight:600;
+    font-weight:700;
 
-    letter-spacing:.3px;
+    letter-spacing:.4px;
 
     font-family:
     "Segoe UI",
@@ -154,9 +154,9 @@ body{
     background:
     linear-gradient(
         90deg,
-        #ffffff,
-        #ffe2a3,
-        #E39700
+        #ffffff 0%,
+        #ffe2a3 35%,
+        #E39700 100%
     );
 
     -webkit-background-clip:text;
@@ -188,7 +188,7 @@ body{
 
     transition:.3s ease;
 
-    border-left:5px solid transparent;
+    border-left:1px solid transparent;
 
 }
 
@@ -196,9 +196,11 @@ body{
 
     background:#242222;
 
-    border-left:5px solid #E39700;
+    border-left:1px solid #E39700;
 
-    color:#E39700;
+    color:#ffffff;
+
+}
 
 }
 
