@@ -135,17 +135,45 @@ body{
 
 
 
+/* BOTÓN CERRAR */
+
+.close-btn{
+
+    position:absolute;
+
+    top:25px;
+
+    right:25px;
+
+    color:#8f8f8f;
+
+    font-size:26px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.close-btn:hover{
+
+    color:white;
+
+}
+
+
+
 /* LOGO MENÚ */
 
 .menu-logo{
 
     padding:0 35px 40px;
 
-    font-size:38px;
+    font-size:32px;
 
-    font-weight:900;
+    font-weight:700;
 
-    letter-spacing:-2px;
+    letter-spacing:-1px;
 
     background:
     linear-gradient(
@@ -156,7 +184,6 @@ body{
     );
 
     -webkit-background-clip:text;
-
     -webkit-text-fill-color:transparent;
 
 }
@@ -227,7 +254,7 @@ body{
 
 
 
-/* LOGO CENTRAL */
+/* LOGO PRINCIPAL */
 
 .logo{
 
