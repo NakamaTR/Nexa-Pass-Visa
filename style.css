@@ -27,11 +27,13 @@ body{
 
 
 
+
 /* Resplandor superior */
 
 .glow{
 
     position:absolute;
+
 
     left:50%;
     top:-1400px;
@@ -46,24 +48,32 @@ body{
 
 
 
-    border-radius:0 0 1600px 1600px;
+    border-radius:
+
+    0 0 1600px 1600px;
 
 
 
     background:
 
+
     radial-gradient(
         ellipse at center,
 
+
         rgba(255,235,150,0.42) 0%,
+
 
         rgba(255,220,100,0.25) 35%,
 
+
         rgba(160,120,30,0.10) 60%,
+
 
         rgba(0,0,0,0) 85%
 
     );
+
 
 
     filter:blur(115px);
@@ -77,13 +87,19 @@ body{
 
 
 
+
+
 .logo{
+
 
     position:relative;
 
+
     z-index:2;
 
+
     animation:entrada 1.4s ease;
+
 
 }
 
@@ -101,11 +117,14 @@ h1{
 
     font-size:
 
+
     clamp(50px,9vw,115px);
 
 
 
+
     font-weight:900;
+
 
 
     letter-spacing:-5px;
@@ -115,24 +134,33 @@ h1{
 
     background:
 
+
+
     linear-gradient(
 
         90deg,
 
+
         #ffffff 0%,
+
 
         #fff3a0 45%,
 
+
         #d9b638 100%
+
 
     );
 
 
 
 
+
     -webkit-background-clip:text;
 
+
     -webkit-text-fill-color:transparent;
+
 
 
 
@@ -142,10 +170,14 @@ h1{
 
     drop-shadow(0 0 12px rgba(255,255,255,.35))
 
+
     drop-shadow(0 0 30px rgba(255,255,255,.20));
 
 
+
 }
+
+
 
 
 
@@ -161,15 +193,17 @@ small{
 
 
 
-    right:-12px;
-
-
-    top:-38px;
+    right:-3px;
 
 
 
+    top:-30px;
 
-    font-size:26px;
+
+
+
+
+    font-size:22px;
 
 
 
@@ -177,7 +211,9 @@ small{
 
 
 
-    font-weight:800;
+
+
+    font-weight:400;
 
 
 
@@ -186,7 +222,9 @@ small{
 
 
 
+
     color:white;
+
 
 
     -webkit-text-fill-color:white;
@@ -194,13 +232,16 @@ small{
 
 
 
+
     filter:
 
 
-    drop-shadow(0 0 12px rgba(255,255,255,.45));
+    drop-shadow(0 0 8px rgba(255,255,255,.35));
+
 
 
 }
+
 
 
 
@@ -224,6 +265,7 @@ transform:translateY(30px);
 
 
 
+
 to{
 
 
@@ -237,6 +279,8 @@ transform:translateY(0);
 
 
 }
+
+
 
 
 
@@ -284,13 +328,13 @@ letter-spacing:-3px;
 small{
 
 
-font-size:20px;
+font-size:18px;
 
 
-right:-8px;
+right:-2px;
 
 
-top:-25px;
+top:-22px;
 
 
 }
