@@ -147,9 +147,9 @@ body{
 
     color:#8f8f8f;
 
-    font-size:24px;
+    font-size:22px;
 
-    font-weight:700;
+    font-weight:800;
 
     cursor:pointer;
 
@@ -168,15 +168,16 @@ body{
 }
 
 
+
 /* LOGO MENÚ */
 
 .menu-logo{
 
     padding:0 35px 50px;
 
-    font-size:28px;
+    font-size:26px;
 
-    font-weight:650;
+    font-weight:600;
 
     letter-spacing:-1px;
 
@@ -199,9 +200,13 @@ body{
 
 .sidebar a{
 
-    display:block;
+    display:flex;
 
-    padding:16px 35px;
+    align-items:center;
+
+    gap:14px;
+
+    padding:14px 35px;
 
     color:white;
 
@@ -218,6 +223,22 @@ body{
     color:#ffd86b;
 
     background:rgba(255,220,100,.05);
+
+}
+
+
+
+/* ICONOS PREMIUM */
+
+.sidebar a span{
+
+    width:24px;
+
+    color:#ffd86b;
+
+    font-size:18px;
+
+    text-align:center;
 
 }
 
