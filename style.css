@@ -178,6 +178,10 @@ body{
 
     font-size:16px;
 
+    font-weight:600;
+
+    letter-spacing:.2px;
+
     transition:.3s ease;
 
     border-left:4px solid transparent;
@@ -191,6 +195,8 @@ body{
     border-left:4px solid #E39700;
 
     color:#E39700;
+
+    font-weight:700;
 
 }
 
