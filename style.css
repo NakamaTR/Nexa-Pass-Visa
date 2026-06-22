@@ -48,9 +48,7 @@ body{
 
 
 
-    border-radius:
-
-    0 0 1600px 1600px;
+    border-radius:0 0 1600px 1600px;
 
 
 
@@ -135,7 +133,6 @@ h1{
     background:
 
 
-
     linear-gradient(
 
         90deg,
@@ -184,7 +181,7 @@ h1{
 
 
 
-/* Visa arriba de la S final */
+/* Visa flotando arriba */
 
 small{
 
@@ -193,11 +190,11 @@ small{
 
 
 
-    right:-8px;
+    right:15px;
 
 
 
-    top:-38px;
+    top:-48px;
 
 
 
@@ -328,10 +325,10 @@ small{
 font-size:18px;
 
 
-right:-5px;
+right:10px;
 
 
-top:-25px;
+top:-30px;
 
 
 }
