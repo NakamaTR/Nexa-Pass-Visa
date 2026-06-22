@@ -1,7 +1,9 @@
 *{
+
     margin:0;
     padding:0;
     box-sizing:border-box;
+
 }
 
 
@@ -10,11 +12,11 @@ body{
     height:100vh;
     width:100%;
 
-    overflow:hidden;
-
     display:flex;
     justify-content:center;
     align-items:center;
+
+    overflow:hidden;
 
     background:#050505;
 
@@ -26,9 +28,9 @@ body{
 }
 
 
-/* franja amarilla central */
+/* Resplandor vertical */
 
-.background-line{
+.glow{
 
     position:absolute;
 
@@ -36,30 +38,31 @@ body{
     height:100%;
 
     background:
-    radial-gradient(
-        ellipse at center,
-        rgba(216,185,51,0.75) 0%,
-        rgba(216,185,51,0.35) 25%,
-        rgba(80,60,10,0.15) 50%,
-        rgba(0,0,0,0) 75%
+
+    linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(180,145,25,0.35) 15%,
+        rgba(255,215,80,0.95) 50%,
+        rgba(180,145,25,0.35) 85%,
+        rgba(0,0,0,0) 100%
     );
 
-    filter:blur(25px);
 
-    z-index:0;
+    filter:blur(35px);
+
+    animation:brillo 4s infinite alternate;
 
 }
 
 
-/* logo */
+/* Logo */
 
-.logo-container{
+.logo{
 
     position:relative;
 
     z-index:2;
-
-    text-align:center;
 
     animation:entrada 1.5s ease;
 
@@ -69,40 +72,51 @@ body{
 
 h1{
 
+
     position:relative;
 
-    color:#050505;
 
-    font-size:clamp(60px,12vw,150px);
+    font-size:
+    clamp(60px,12vw,150px);
 
-    letter-spacing:-6px;
 
     font-weight:900;
+
+    letter-spacing:-7px;
+
+
+    background:
+
+    linear-gradient(
+        90deg,
+        #ffffff,
+        #ffe98a,
+        #d5ad28
+    );
+
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
 
     text-shadow:
-    0px 10px 30px rgba(0,0,0,.35);
+
+    0px 10px 40px rgba(255,215,80,.35);
 
 }
 
 
 
-h1 span{
-
-    font-weight:900;
-
-}
-
-
-
-/* Visa arriba */
+/* Visa */
 
 small{
 
     position:absolute;
 
-    right:0;
+    right:-5px;
 
     top:-30px;
+
 
     font-size:35px;
 
@@ -110,45 +124,59 @@ small{
 
     font-weight:700;
 
-}
-
-
-
-p{
-
-    margin-top:20px;
-
-    font-size:20px;
 
     color:white;
 
-    opacity:.8;
-
-    letter-spacing:3px;
+    -webkit-text-fill-color:white;
 
 }
 
 
 
-/* animacion */
+/* Animaciones */
 
 @keyframes entrada{
 
 
 from{
 
-    opacity:0;
+opacity:0;
 
-    transform:translateY(30px);
+transform:translateY(30px);
 
 }
 
 
 to{
 
-    opacity:1;
+opacity:1;
 
-    transform:translateY(0);
+transform:translateY(0);
+
+}
+
+
+}
+
+
+
+@keyframes brillo{
+
+
+from{
+
+opacity:.7;
+
+transform:scaleX(.9);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:scaleX(1.1);
 
 }
 
@@ -157,42 +185,35 @@ to{
 
 
 
-/* celular */
+/* Celular */
 
 @media(max-width:700px){
 
 
-.background-line{
+.glow{
 
-    height:180px;
+width:250px;
 
 }
 
 
-
 h1{
 
-    font-size:55px;
+font-size:55px;
 
-    letter-spacing:-3px;
+letter-spacing:-3px;
 
 }
 
 
 small{
 
-    font-size:20px;
+font-size:20px;
 
-    top:-18px;
-
-}
-
-
-p{
-
-    font-size:14px;
+top:-18px;
 
 }
+
 
 
 }
