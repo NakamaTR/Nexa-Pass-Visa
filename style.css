@@ -30,9 +30,9 @@ body{
 
     align-items:center;
 
-    gap:12px;
+    gap:10px;
 
-    padding:14px 30px;
+    padding:10px 20px;
 
     border:1px solid rgba(227,151,0,.65);
 
@@ -40,7 +40,7 @@ body{
 
     color:#E39700;
 
-    font-size:20px;
+    font-size:18px;
 
     font-weight:800;
 
@@ -52,7 +52,11 @@ body{
 
     backdrop-filter:blur(10px);
 
-    transition:.3s;
+    transition:
+    opacity .3s ease,
+    transform .3s ease,
+    background .3s ease,
+    box-shadow .3s ease;
 
 }
 
@@ -66,9 +70,19 @@ body{
 
 .menu-btn i{
 
-    font-size:22px;
+    font-size:20px;
 
     color:#E39700;
+
+}
+
+.menu-btn.hidden{
+
+    opacity:0;
+
+    visibility:hidden;
+
+    pointer-events:none;
 
 }
 
