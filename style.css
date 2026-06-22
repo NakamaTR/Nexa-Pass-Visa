@@ -32,21 +32,19 @@ body{
 
     position:absolute;
 
-    width:280px;
+    width:420px;
     height:100%;
 
     background:
-    linear-gradient(
-        180deg,
-        #050505 0%,
-        #4a3b12 20%,
-        #d8b933 50%,
-        #4a3b12 80%,
-        #050505 100%
+    radial-gradient(
+        ellipse at center,
+        rgba(216,185,51,0.75) 0%,
+        rgba(216,185,51,0.35) 25%,
+        rgba(80,60,10,0.15) 50%,
+        rgba(0,0,0,0) 75%
     );
 
-
-    filter:blur(3px);
+    filter:blur(25px);
 
     z-index:0;
 
