@@ -268,7 +268,7 @@ h2{
 
     font-weight:700;
 
-    color:white;
+    color:#c8c8c8;
 
     text-align:center;
 
@@ -286,7 +286,7 @@ h2{
 
     line-height:1.9;
 
-    color:#bdbdbd;
+    color:#9f9f9f;
 
 }
 
@@ -302,7 +302,7 @@ h2{
 
     line-height:1.8;
 
-    color:#8f8f8f;
+    color:#777777;
 
 }
 
@@ -321,33 +321,57 @@ h2{
     }
 }
 
-@media(max-width:700px){.logo{
+@media(max-width:700px){
 
-    margin-left:250px;
+    .logo{
 
-    width:calc(100vw - 250px);
+        left:250px;
 
-}
+        width:calc(100vw - 250px);
 
-h2{
+    }
 
-    font-size:26px;
+    .sidebar{
 
-}
+        width:250px;
 
-.descripcion{
+    }
 
-    font-size:15px;
+    h1{
 
-    padding:0 25px;
+        font-size:55px;
 
-}
+    }
 
-.descripcion-secundaria{
+    small{
 
-    font-size:13px;
+        font-size:34px;
 
-    padding:0 25px;
+        right:-65px;
+
+    }
+
+    h2{
+
+        font-size:26px;
+
+    }
+
+    .descripcion{
+
+        font-size:15px;
+
+        padding:0 25px;
+
+    }
+
+    .descripcion-secundaria{
+
+        font-size:13px;
+
+        padding:0 25px;
+
+    }
 
 }
 
